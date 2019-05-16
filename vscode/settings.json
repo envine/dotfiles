@@ -1,0 +1,53 @@
+{
+    // フォント サイズ (ピクセル単位) を制御します。
+    "editor.fontSize": 16,
+    "editor.minimap.renderCharacters": false,    // 画面右のミニマップの表示をブロックにする
+    "editor.minimap.showSlider": "always",       // 表示している領域をミニマップでハイライトする
+    "editor.renderWhitespace": "boundary",       // 半角スペースが「·」で表される
+    "editor.snippetSuggestions": "top",          // Emmetなどのスニペットの候補を優先的に表示する
+    "editor.tabSize": 2,                         // タブがスペースいくつ分かを指定する
+    "editor.wordWrap": "off",                    // 行のテキストが画面いっぱいまで書かれても改行しない
+    "explorer.confirmDelete": false,             // ファイル削除時に確認を表示しない
+    "files.insertFinalNewline": true,            // ファイルの保存時に末尾を改行する
+    "files.trimFinalNewlines": true,             // ファイルの保存時に空の行が最後にある時にそれらを削除する
+    "files.trimTrailingWhitespace": true,        // ファイルの保存時に行末の空白を削除する
+    "html.format.extraLiners": "",               // headタグとbodyタグとheadの閉じタグに改行をいれない
+    "window.openFoldersInNewWindow": "on",       // 新規のワークスペースを新しいウィンドウで開く
+    "window.title": "${activeEditorMedium}${separator}${rootName}", // ウインドウ上部に表示するタイトルを設定する
+    "workbench.editor.enablePreview": false,     // エクスプローラー上にあるファイルをクリックすると新しいタブを作って表示する
+    "workbench.startupEditor": "none",
+    "workbench.iconTheme": "vscode-icons", // 新しいウィンドウを立ち上げたときにウェルカムページを表示しない
+
+
+    "editor.dragAndDrop": true,
+    "editor.minimap.enabled": true,
+    "editor.scrollBeyondLastLine": false,
+    "editor.renderIndentGuides": true,
+    "editor.wrappingIndent": "indent",
+    "emmet.triggerExpansionOnTab": false,
+    "emmet.includeLanguages": {"ejs": "html", "vue-html": "html", "javascript": "javascriptreact"},
+    "files.exclude": {
+      "**/.sass-cache": true,
+      "**/node_modules": true
+    },
+    "search.exclude": {
+      "**/node_modules": true,
+      "**/bower_components": false
+    },
+    "window.zoomLevel": -1,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "workbench.editor.showTabs": true,
+    "git.enableSmartCommit": true,
+    "diffEditor.ignoreTrimWhitespace": true,
+    "npm.enableScriptExplorer": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+
+
+    "terminal.integrated.shell.windows":"C:\\msys64\\msys2_shell.cmd",
+    "terminal.integrated.shellArgs.windows": [
+        "-mingw64","-defterm","-no-start","-here","-full-path"
+    ],
+    "terminal.integrated.setLocaleVariables":true,
+    "terminal.integrated.cursorStyle": "block"
+}

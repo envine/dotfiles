@@ -1,0 +1,25 @@
+# .minttyrc
+BoldAsFont=no
+Font=Ricty Diminished
+FontHeight=10
+
+Columns=115
+Rows=58
+CursorType=block
+Scrollbar=none
+Transparency=high
+BackgroundColour=0,0,0
+ForegroundColour=255,255,255
+
+Locale=ja_JP
+Charset=UTF-8
+Term=xterm-256color
+
+CopyOnSelect=yes
+RightClickAction=paste
+BackspaceSendsBS=yes
+
+IMECursorColour=255,0,0
+OpaqueWhenFocused=no
+ThemeFile=
+FontSmoothing=partial
