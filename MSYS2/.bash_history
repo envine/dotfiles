@@ -195,3 +195,24 @@ ls
 ln -s /d/Storage/Dropbox/02\ -\ Work/Git/dotfiles/vscode/settings.json ./settings.json
 ln -s /d/Storage/Dropbox/02\ -\ Work/Git/dotfiles/vscode/keybindings.json ./keybindings.json
 ln -s /d/Storage/Dropbox/02\ -\ Work/Git/dotfiles/vscode/locale.json ./locale.json
+cd /c/Users/acidc/AppData/Roaming/Code/User/
+ls
+ln -s /d/Storage/Dropbox/02\ -\ Work/Git/dotfiles/vscode/settings.json ./settings.json
+ln -s /d/Storage/Dropbox/02\ -\ Work/Git/dotfiles/vscode/keybindings.json ./keybindings.json
+ln -s /d/Storage/Dropbox/02\ -\ Work/Git/dotfiles/vscode/locale.json ./locale.json
+cd /c/msys64/home/
+ls
+cd acidc
+ls
+ln -s /d/Storage/Dropbox/02\ -\ Work/Git/dotfiles/MSYS2/.bash_aliases ./.bash_aliases
+ln -s /d/Storage/Dropbox/02\ -\ Work/Git/dotfiles/MSYS2/.bash_functions ./.bash_functions
+ln -s /d/Storage/Dropbox/02\ -\ Work/Git/dotfiles/MSYS2/.bash_history ./.bash_history
+ls
+ln -s /d/Storage/Dropbox/02\ -\ Work/Git/dotfiles/MSYS2/.bash_logout ./.bash_logout
+ln -s /d/Storage/Dropbox/02\ -\ Work/Git/dotfiles/MSYS2/.bash_profile ./.bash_profile
+ln -s /d/Storage/Dropbox/02\ -\ Work/Git/dotfiles/MSYS2/.bashrc ./.bashrc
+ln -s /d/Storage/Dropbox/02\ -\ Work/Git/dotfiles/MSYS2/.inputrc ./.inputrc
+ln -s /d/Storage/Dropbox/02\ -\ Work/Git/dotfiles/MSYS2/.minttyrc ./.minttyrc
+ln -s /d/Storage/Dropbox/02\ -\ Work/Git/dotfiles/MSYS2/.profile ./.profile
+ln -s /d/Storage/Dropbox/02\ -\ Work/Git/dotfiles/MSYS2/.python_history ./.python_history
+ln -s /d/Storage/Dropbox/02\ -\ Work/Git/dotfiles/MSYS2/.wget-hsts ./.wget-hsts
