@@ -68,8 +68,8 @@ alias ping2='ping 192.168.0.1'
 
 # mingw32用
 # msysのmakeと被らないようにコマンド名が変えられている
-alias make='mingw32-make'
-alias m='make -j3'
+#alias make='mingw32-make'
+#alias m='make -j3'
 
 # よく使うプログラム
 alias atom='/c/Users/acidc/AppData/Local/atom/atom.exe'
